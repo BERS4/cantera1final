@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:aqua;">
+    <header style="text-align: center;">Hoja de vida </header>
+    <div class="accordion">
+    <article  class="contenBx" style="text-align: center;"><h1 style="text-align:center;">sobre mi </h1>
+
+<h2>PERFIL PERSONAL</h2>
+<div class="content">
+<img src="Brayan.PNG"  alt="brayan-42015">
+<p >Me caracterizo por ser honesto, respetuoso, con aptitud para aprender y emprender cualquier tipo de tareas que me asignen.
+
+Tengo muchas expectativas frente a la vida laboral la cual aportaría  y me llenaría de gran satisfacción para mi vida personal el saberme útil para la sociedad y poder servir a los demás.
+</p>
+
+
+
+
+<h2>DATOS PERSONALES</h2>
+
+<div class="content">
+
+<p>Colombiano                                    Nacido el 04 de Dic de 1995
+    Documento de identidad	             1152456583
+    Dirección Residencia                        calle 52BB # 58 – 32 Barrio el Rosario - Bello
+    Teléfono		                       Cel. 3004503258        Fijo: 2066026
+    E- mail                                           brayan-42015@hotmail.com</p>
+</div>
+</article>
+    <article  class="contenBx">
+       <h2> EXPERIENCIA EMPRESA</h2>
+       <div class="content">
+<p>MEIKO
+    ●	Contratista por prestación de servicios
+    
+    
+    Auditor De Campo
+    5207720
+    Agosto – Julio (5meses)  2014
+    Éxito
+    empacador temporada de diciembre 2018
+    
+    
+    curaduría segunda de medellín
+    auxiliar de archivo año 2019 marzo-abril
+    
+    Decormaquilas
+    operario de produccion año 2022 enero-febrero
+    </p>
+</div>
+    </article>
+   <h2>ESTUDIOS REALIZADOS</h2> 
+
+<div class="content">
+<p>Bachiller Académico
+
+    Colegio Sagrado Corazon De Maria, 2013, Bello.
+    
+    
+    Archivistica y gestion de la información
+    Finalizada 21 de Marzo 2020
+    
+    Análisis  y desarrollo de sistemas de información
+    
+    Actualmente en segundo semestre
+    </p>
+</div>
+    </article>
+    <article class="contenBx">
+        <h2>REFERENCIAS FAMILIARES</h2>
+        <div class="content">
+
+<p><li>NOMBRE:  Gabriela Patricia Ramirez</li> 
+    <li> CARGO :    Administradora</li>
+    <li> CELULAR: 3006152683 -  2725366</li></p>
+<p><li>NOMBRE:  Monica Marcela Rodriguez</li> 
+    <li>CARGO :    Microbiologa</li> 
+    <li>CELULAR:  3022997089 - 2759540</li> </p>
+
+
+<p><li>NOMBRE:  Edisson David Ramírez</li> 
+    <li>CARGO :    Administrador de empresas</li> 
+    <li>CELULAR:  3006138860</li> </p>
+
+</div>
+    </article>
+    <article class="contenBx">
+        <h2> REFERENCIAS PERSONALES</h2>    
+        <div class="content">
+        
+        <p><li> NOMBRE:  Claudia Maria Hernandez Correa</li>
+        
+            <li>CARGO:     Administradora</li>  
+            
+          <li>CELULAR:  3108482285 - 2729441</li>  </p>
+       
+        
+        <p><li>NOMBRE:  Vilma Janeth Rendon Restrepo</li> 
+        
+           <li>CARGO:     Tecnico Auxiliar PAI</li> 
+            
+           <li>CELULAR:  3045202787 - 6028271</li> </p>
+       
+        <p><li>NOMBRE:  Adela</li> 
+        
+           <li>CARGO: Emprendedora</li> 
+            
+           <li> CELULAR: 3147359786</li></p>
+        </div>
+        </article>
+    </div>
+    <footer><button ><a href="HOJA DE VIDA BRAYAN RAMIREZ (1).pdf" style="text-decoration: none;font-size: 50px;">descarga aqui</a></button>
+</footer>
+<script>
+    const accordion=document.getElementsByClassName ('contentBx');
+
+    for(i=0;i<accordion.length;i++){
+        accordion[i].addEventListener('click',function(){
+            this.classList.toggle('active')
+        })
+    }
+</script>
+</body>
+</html>

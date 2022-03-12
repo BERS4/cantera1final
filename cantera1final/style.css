@@ -1,0 +1,56 @@
+legend{
+    text-align: center;
+}
+form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px 20px 60px 20px;
+    margin-top: 35px;
+    font-family: roboto;  
+    text-align: left !important;
+   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); 
+}
+input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom: 10px;
+    box-sizing:border-box;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    background-color: #34D399;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+    margin-top: 20px;
+    /* Para dar la apariencia de un boton */
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none; 
+}
+li:nth-child(odd){
+    margin: auto;
+    text-decoration: none;
+    background-color: chartreuse;
+    color: #212121;
+    list-style: none;
+    font-size: 50px;
+    width: 400px;
+    text-align: center;
+}
+li:nth-child(even){
+    margin: auto;
+    text-decoration: none;
+    background-color:dodgerblue;
+    color: #212121;
+    list-style: none;
+    font-size: 50px;
+    width: 400px;
+    text-align: center;
+}
